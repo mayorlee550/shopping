@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f9f0f2;
+}
+
+h1{
+  text-align: center;
+  margin: 3.5rem  0;
+  font-family: "Montserrat-bold";
+}
+hr{
+  border: dotted black 20px;
+  border-bottom: 0;
+  width: 8%;
+  margin: 100px auto;
+}
+
+.bi{
+  color: #fff;
+}
+
+.container{
+  width: 100%vw;
+}
+
+.card-img-top{
+  border-radius: 50px;
+
+}
+.card{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  padding: 3% 5%;
+  margin-bottom: 5%;
+  margin: 30px auto;
+}
+.card-body{
+  padding: 25px;
+  margin-top: 15px;
+  line-height: 2;
+}
+.btn-primary{
+  border-radius: 50px;
+  width: 120px;
+}
+
+.btn-primary:hover{
+  background-color: purple;
+}
+
+
+/* CSS for styling ; the cart and cart notifications */
+
+.cart-icon {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .notification {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
